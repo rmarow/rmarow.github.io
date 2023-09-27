@@ -1,5 +1,5 @@
 ---
-title: "Robyn's Rec's and Recipes"
+title: "Recs and Recipes"
 listing:
   contents: posts
   sort: "date desc"
