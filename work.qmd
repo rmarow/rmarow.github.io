@@ -1,0 +1,54 @@
+---
+title: "Work/Career"
+---
+
+# ROBYN MAROWITZ
+## SOFTWARE DEVELOPER
+Denver, Co  614-917-7962   Marowitzrobyn14@gmail.com   
+
+Research software developer passionate about climate solutions, open source, accessibility.
+
+## EXPERIENCE
+
+### Software Developer (Associate Scientist II) | National Snow and Ice Data Center  2022-Present
+
+*	Built database and web page for US-Arctic Observing Network Benefit Tool.
+*	Released V2 of G10005 dataset.
+*	Moved all NOAA@NSIDC datasets from FTP to Https and wrote a script to track downloads by time, region, and dataset automatically sending a monthly report to stakeholders.
+*	Updated NOAA Sea Ice and Sea Ice Climate Data codebases to take NetCDF inputs, data from AMSR2 & SSMIS satellites used by over 1 million people yearly.
+*	Modernized legacy software and services.
+*	Revamped Antarctic Ice Shelves project by reprocessing old data, adding in new regions, and automating filtering images.
+*	Built a slack bot to recognize employee anniversaries and birthdays in slack channel, bot can be utilized for other purposes.
+*	Revamped the NSIDC technical blog and wrote posts on various technical topics.
+
+### Senior Application Engineer/Consultant | Infoverity                                             2019-2022
+Held roles as Application Engineer I, II, and III before becoming Senior Application Engineer. 
+
+*	Construction Machinery Company: Developed multiple custom Java extensions to create custom import functions, customize the clients’ web page, and automate the translation process.
+*	Furniture Company: Integrated MDM with SAP using an IICS ODATA connector through MySQL queries and JSON calls between two systems as well as SOAP calls for two-way communication.
+*	Health Care Products Distributors: Implemented various ActiVos workflows using JSON and XQuery to integrate new data from Media manager into PIM white utilizing Data Quality checks.
+*	Improved the efficiency of clients’ existing workflows and trained current employees on best practices.
+
+## EDUCATION
+
+BS Industrial and Systems Engineer | Ohio State University
+Dounia Ogle and Robyn Marowitz Scholarship
+2018-PRESENT
+Established and funded a renewable scholarship at Ohio State University for Engineering students.
+
+## CERTIFICATES
+
+Earth Data Science | University of Colorado, Boulder
+Scrum Master | Scrum Alliance
+PIM Product Level Specialist | Informatica
+
+## SKILLS
+
+Python, GitHub, Docker, SQL, Jira (Atlassian), JSON, Microsoft Office, Communication (public speaking), Visio, Tableau, Java  
+
+## ACTIVITES
+
+Volunteer: Pelotonia, Climate Reality Leadership Corps, Mile High Hack
+Open Source: Community maintainer of Flask-Dance
+Personal: Cooking/Baking, reading (community book clubs), cycling, hiking, skiing, gardening
+github.com/rmarow | github.com/rmarowitz
