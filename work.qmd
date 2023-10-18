@@ -31,24 +31,29 @@ Held roles as Application Engineer I, II, and III before becoming Senior Applica
 
 ## EDUCATION
 
-BS Industrial and Systems Engineer | Ohio State University
-Dounia Ogle and Robyn Marowitz Scholarship
-2018-PRESENT
+#### BS Industrial and Systems Engineer  
+Ohio State University  
+#### Dounia Ogle and Robyn Marowitz Scholarship:   
 Established and funded a renewable scholarship at Ohio State University for Engineering students.
 
 ## CERTIFICATES
 
-Earth Data Science | University of Colorado, Boulder
-Scrum Master | Scrum Alliance
+Earth Data Science | University of Colorado, Boulder  
+Scrum Master | Scrum Alliance  
 PIM Product Level Specialist | Informatica
 
 ## SKILLS
-
 Python, GitHub, Docker, SQL, Jira (Atlassian), JSON, Microsoft Office, Communication (public speaking), Visio, Tableau, Java  
 
 ## ACTIVITES
 
-Volunteer: Pelotonia, Climate Reality Leadership Corps, Mile High Hack
-Open Source: Community maintainer of Flask-Dance
-Personal: Cooking/Baking, reading (community book clubs), cycling, hiking, skiing, gardening
+#### Volunteer: 
+Pelotonia, Climate Reality Leadership Corps, Mile High Hack
+
+#### Open Source: 
+Community maintainer of Flask-Dance
+
+#### Personal: 
+
+Cooking/Baking, reading (community book clubs), cycling, hiking, skiing, gardening
 github.com/rmarow | github.com/rmarowitz
