@@ -2,21 +2,36 @@ project:
   type: website
 
 website:
-  title: "Rob's Recs"
+  title: "Robyn" 
   navbar:
-    right:
-      - text: "Home"
-        file: "index.md"
-      - text: "About"
-        file: about.qmd
+    title: false
+    left:
+      - href: index.qmd
+        text: HOME
+      - text: "ABOUT"
+        menu:
+          - text: "ABOUT ME"
+            href: about.qmd
+          - text: "MY WORK"
+            href: work.qmd
+      - text: "RECIPES"
+        href: recipes.qmd
+      - text: "RESTAURANTS"
+        menu: 
+        - text: "DENVER"
+          href: denver_food.qmd
+        - text: "COLUMBUS"
+          href: columbus_food.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/rmarow
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/rmarowitz
+
 format:
   html:
     theme: cosmo
     css: styles.css
+    toc: true
 
 
 

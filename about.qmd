@@ -1,19 +1,5 @@
 ---
 title: "About"
-image: profile.jpg
-about:
-  template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/rmarowitz
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/robyn-marowitz/
-    - icon: github
-      text: Github
-      href: https://github.com/rmarowitz
-
 ---
 
-When I first moved to Denver I was so let down about the restaurat scene, but in the past few years I have come to find places that I absolutely love. This blog contains all of the spots I know and love in Denver and elsewhere. 
+When I first moved to Denver I was so let down about the restaurat scene, but in the past few years I have come to find places that I absolutely love. This blog contains all of the spots I know and love in Denver and elsewhere.

@@ -1,6 +1,4 @@
----
-title: "My challah recipe"
-author: "Robyn Marowitz"
+uthor: "Robyn Marowitz"
 date: "2023-10-07"
 categories: [baking, bread, jewish]
 ---

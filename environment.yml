@@ -1,7 +1,0 @@
-name: "robs-blog"
-channels:
-  - "conda-forge"
-  - "nodefaults"
-dependencies:
-  - "quarto"
-  - "jupyter"
