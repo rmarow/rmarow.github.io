@@ -24,3 +24,11 @@ categories: [baking, bread]
 - Cook with lid on for 35 minutes
 - Take lid off let brown 10-15 minutes (can lower temp if you want)
 - Let loaf cool for around 1 hour before cutting
+
+
+Tools/Needs:
+- starter: Many local bakeries will give away or sell starter. I have a bread flour starter - if you want some just let me know.
+- [baking kit](https://www.amazon.com/dp/B09HH4K1LZ/ref=cm_sw_r_as_gl_api_gl_i_B2JBFVM29JTV1F6ZJQNW?linkCode=ml2&tag=robblog0b-20) I have and have used for years. It includes banneton, dough whisk, scoring blades, metal and plastic dough scrapers and a cleaning brush.
+- [food scale ](https://amzn.to/3PycUVy) 
+- [dutch oven](https://amzn.to/43Agwfv) any dutch oven works, I like this one becauce I also use it for soups and stews.
+- [silicon baking mat](https://amzn.to/3xcPzCE) I like to use these to avoid using parchment paper for a more sustainable option
