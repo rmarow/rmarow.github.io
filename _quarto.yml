@@ -17,11 +17,7 @@ website:
       - text: "RECIPES"
         href: recipes.qmd
       - text: "RESTAURANTS"
-        menu: 
-        - text: "DENVER"
-          href: denver_food.qmd
-        - text: "COLUMBUS"
-          href: columbus_food.qmd
+        href: restaurants.qmd
       - icon: github
         href: https://github.com/rmarow
       - icon: twitter
