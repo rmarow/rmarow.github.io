@@ -1,11 +1,13 @@
 ---
-title: "My sourdough recipe"
+title: "Favorite sourdough recipe"
 author: "Robyn Marowitz"
 date: "2023-10-07"
 categories: [baking, bread]
 ---
 
 ![](round_loaf.jpg)
+
+## Sourdough
 
 - Feed the starter 50g water and 50g bread flour
 - Wait for that to double in size
