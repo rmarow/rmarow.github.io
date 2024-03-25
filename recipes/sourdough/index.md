@@ -3,7 +3,7 @@ title: "Favorite sourdough recipe"
 author: "Robyn Marowitz"
 date: "2023-10-07"
 categories: [baking, bread]
-description: Classic method of baking sourdough"
+description: "Classic method of baking sourdough"
 ---
 
 ![](round_loaf.jpg)
@@ -33,3 +33,5 @@ description: Classic method of baking sourdough"
 - [food scale ](https://amzn.to/3PycUVy) 
 - [dutch oven](https://amzn.to/43Agwfv) any dutch oven works, I like this one becauce I also use it for soups and stews.
 - [silicon baking mat](https://amzn.to/3xcPzCE) I like to use these to avoid using parchment paper for a more sustainable option
+
+![](plain_loaf.jpg)
