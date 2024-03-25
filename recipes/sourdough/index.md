@@ -3,6 +3,7 @@ title: "Favorite sourdough recipe"
 author: "Robyn Marowitz"
 date: "2023-10-07"
 categories: [baking, bread]
+description: Classic method of baking sourdough"
 ---
 
 ![](round_loaf.jpg)
@@ -26,7 +27,7 @@ categories: [baking, bread]
 - Let loaf cool for around 1 hour before cutting
 
 
-Tools/Needs:
+### Tools/Needs:
 - starter: Many local bakeries will give away or sell starter. I have a bread flour starter - if you want some just let me know.
 - [baking kit](https://www.amazon.com/dp/B09HH4K1LZ/ref=cm_sw_r_as_gl_api_gl_i_B2JBFVM29JTV1F6ZJQNW?linkCode=ml2&tag=robblog0b-20) I have and have used for years. It includes banneton, dough whisk, scoring blades, metal and plastic dough scrapers and a cleaning brush.
 - [food scale ](https://amzn.to/3PycUVy) 
