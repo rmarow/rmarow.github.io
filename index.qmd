@@ -1,7 +1,11 @@
 ---
-title: "."
+title: "Robyn Marowitz Personal Website"
 ---
 
-This is a Quarto website.
+This page is basically a place for all my things. Mostly for me to keep track of, but for anyone to enjoy.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I will be posting favorite recipes/cooking and baking advice as well as my tie dye projects and knitting/crochet projects.
+I am newly interested in bird watching and while I record my journey on (ebird)[https://ebird.org/profile/NDc4OTk3NA]
+
+If you want to read my book reviews those are on my (goodreads)[https://www.goodreads.com/user/show/114119858-robyn-marowitz].
+
