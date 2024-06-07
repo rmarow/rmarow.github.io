@@ -18,6 +18,8 @@ website:
         href: recipes.qmd
       - text: "RESTAURANTS"
         href: restaurants.qmd
+      - text: "TIE DYES"
+        href: tiedyes.qmd
       - icon: github
         href: https://github.com/rmarow
       - icon: twitter

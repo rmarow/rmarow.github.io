@@ -1,0 +1,12 @@
+---
+tite: "TIE DYES"
+listing:
+  contents: tiedyes
+  sort: "date desc"
+  type: default
+  image-align: right
+  max-description-length: 175
+  date-format: medium
+  categories: true
+page-layout: full
+---
