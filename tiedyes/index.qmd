@@ -22,6 +22,7 @@ description: ""
 
 ![](daddy.jpg){group="my-gallery"}
 
+![](theO.JPG){group="my-gallery"}
 ![](glass_animals.jpg){group="my-gallery"}
 
 ![](daft_punk.jpg){group="my-gallery"}
