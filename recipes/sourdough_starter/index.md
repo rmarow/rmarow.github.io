@@ -24,7 +24,8 @@ If you are baking you will want to:
  You can leave a starter in the fridge for quite a long time (around 2 months in my experience) and it will be totally fine. In those scenarios you     may not get the starter doubling on your first feed and will have to repeat before you can use it to bake. In order to avoid that scenario, I rec    ommend feeding your starter around once every 2 weeks. If you are not going to bake you can just go ahead and feed the starter anyway and either m    ake a discard recipe or just toss some discard if you need room in your jar.
 
 
- ### Tools/Needs:
+### Tools/Needs:
+
  - starter: Many local bakeries will give away or sell starter. I have a bread flour starter - if you want some just let me know.
  - [baking kit](https://www.amazon.com/dp/B09HH4K1LZ/ref=cm_sw_r_as_gl_api_gl_i_B2JBFVM29JTV1F6ZJQNW?linkCode=ml2&tag=robblog0b-20) I have and have     used for years. It includes banneton, dough whisk, scoring blades, metal and plastic dough scrapers and a cleaning brush.
  - [food scale ](https://amzn.to/3PycUVy)
