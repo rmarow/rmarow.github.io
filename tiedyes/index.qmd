@@ -1,0 +1,40 @@
+---
+title: "Tie Dye Gallery"
+author: "Robyn Marowitz"
+format: html
+date: "2024-06-07"
+filters:
+  - lightbox
+lightbox: auto
+categories: [art, tiedye]
+description: ""
+---
+
+
+![](pat.jpeg){group="my-gallery"}
+
+![](xdesign.jpeg){group="my-gallery"}
+
+![](daddy.jpg){group="my-gallery"}
+
+![](glass_animals.jpg){group="my-gallery"}
+
+![](daft_punk.jpg){group="my-gallery"}
+
+![](corn.jpg){group="my-gallery"}
+
+![](heidi.jpeg){group="my-gallery"}
+
+![](heidi_drew.JPG){group="my-gallery"}
+
+![](ali_nikki.JPG){group="my-gallery"}
+
+![](osuTOP.jpeg){group="my-gallery"}
+
+![](david.jpeg){group="my-gallery"}
+
+![](sonya.jpeg){group="my-gallery"}
+
+![](jimbo.jpeg){group="my-gallery"}
+
+![](mrpatterson.jpeg){group="my-gallery"}
