@@ -18,6 +18,7 @@ description: ""
 ![](pat.jpeg){group="my-gallery"}
 
 ![](xdesign.jpeg){group="my-gallery"}
+![](PL.JPG){group="my-gallery"}
 
 ![](daddy.jpg){group="my-gallery"}
 
@@ -25,7 +26,8 @@ description: ""
 
 ![](daft_punk.jpg){group="my-gallery"}
 
-![](corn.jpg){group="my-gallery"}
+![](halfcircle.jpeg){group="my-gallery"}
+![](corn.JPG){group="my-gallery"}
 
 ![](circle.jpeg){group="my-gallery"}
 
