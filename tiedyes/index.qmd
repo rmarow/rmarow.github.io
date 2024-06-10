@@ -12,6 +12,9 @@ description: ""
 
 ::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
 
+![](pink.jpeg){group="my-gallery"}
+
+![](purple.jpeg){group="my-gallery"}
 ![](pat.jpeg){group="my-gallery"}
 
 ![](xdesign.jpeg){group="my-gallery"}
@@ -23,6 +26,8 @@ description: ""
 ![](daft_punk.jpg){group="my-gallery"}
 
 ![](corn.jpg){group="my-gallery"}
+
+![](circle.jpeg){group="my-gallery"}
 
 ![](heidi.jpeg){group="my-gallery"}
 
