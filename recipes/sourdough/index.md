@@ -12,7 +12,7 @@ description: "Classic method of baking sourdough"
 
 - Feed the starter 50g water and 50g bread flour
 - Wait for that to double in size
-- Mix 500g of flour in a large bowl
+- Mix 500g of flour in a large bowl (use atleast 300g bread flour - like to do 150 of spelt and 50 of rye to get to 500g)
 - In another bowl add 350g water and then add 100g starter ( to see if starter is active watch if it floats in the water), mix the water and starter together to all be one liquid
 - Add the starter and water to the 500g flour and mix with a bread whisk (not super aggressive) cover and let autolize for 45 minutes to 1 hour
 - Mix 10g salt and 20-40g water
