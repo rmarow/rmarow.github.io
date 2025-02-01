@@ -52,3 +52,36 @@ A physical meal suggestion device that helps pick a meal based on my input and s
 - Ensuring **Bluetooth pairing** is smooth and simple.  
 - How to encorporate a pre-set list of meal ideas and recipe links.  
 
+#### Idea 3: Euchre Scorekeeper
+
+**Pet Peeve:** Keeping score during Euchre can be tricky, especially when drinking, chatting, or multitasking. People forget to update the score, and sometimes there’s debate about what it should be.  
+
+**Solution** 
+A simple Euchre Scorekeeper that tracks the game’s progress with minimal effort so players can focus on having fun.  
+
+**Features**  
+- **Single-button simplicity:** Each team has one button—click it the correct number of times to record points.  
+- **Handles Euchre-specific scoring rules:**  
+  - 1 click = 1 point (standard round win).  
+  - 2 clicks = 2 points (team wins all 5 tricks or Euchres opponents).  
+  - 4 clicks = 4 points (someone goes alone and wins).  
+- **Visible score display:** A bright LED or LCD screen shows the current score at all times.  
+- **Drinking-Friendly Mode:** Can provide random demands like*"Time for a cheers!"*.  
+- **Auto-reset:** When a team reaches 10 points, the device flashes the winner’s name and resets automatically.  
+
+**How It Works**
+1. Each team has one button.  
+2. The button is pressed once per point earned (1, 2, or 4 times).  
+3. The LED display updates the score in real time.  
+4. When a team reaches 10 points, the game announces the winner and resets automatically.  
+
+**Components**  
+- **2 push buttons** (one for each team).  
+- **LED display or LCD screen** to show the score.  
+- **Arduino** (to process scoring logic).  
+- **Buzzer or LED flash** when a team scores.  
+
+**Challenges & Considerations**  
+- Avoiding accidental button presses 
+- Ensuring points are counted correctly (a short delay between clicks to prevent double-counting).  
+- Should there be an undo option?  
