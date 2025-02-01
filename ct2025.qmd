@@ -29,9 +29,26 @@ A **smart light** that detects when my boyfriend is near and displays a status m
 - **Button or voice control** (to manually change status)  
 - **Arduino** (microcontroller for processing)  
 
-**Challenges & Considerations:**  
-- Ensuring accurate detection of my partner.  
-- Implementing a user-friendly way to change statuses manually.  
+#### **Idea 2: "Meal Decider" with Recipe Sending**  
+**Pet Peeve:** Struggling to decide what to eat for lunch or dinner. 
 
----
+**Solution:**  
+A physical meal suggestion device that helps pick a meal based on my input and sends a recipe from a list of pre-selected options to my phone via bluetooth. I want te options to be pre-selected since I have some allergies/dietary restrictions and want them to be things I would actuallty want to make. 
+
+**How it Works:**  
+1. **Press a button or turn a dial** to generate a random meal suggestion.  
+2. The **LCD screen or LED display** shows the meal idea (e.g., "Tacos!" or "Stir Fry").  
+3. **Bluetooth sends a recipe link** to my phone for the selected meal.  
+4. (Optional) A second button allows for a **re-roll** if I don’t like the first option.  
+
+**Possible Components:**  
+- **Push button or rotary dial** (to select a meal).  
+- **LCD screen or LED matrix** (to display meal suggestions).  
+- **HC-05 or HC-06 Bluetooth module** (to send recipe links to my phone).  
+- **Arduino** (to handle meal selection, display, and Bluetooth connection).  
+- **Pre-set meal list** with corresponding recipe URLs.  
+
+**Challenges & Considerations:**  
+- Ensuring **Bluetooth pairing** is smooth and simple.  
+- How to encorporate a pre-set list of meal ideas and recipe links.  
 
