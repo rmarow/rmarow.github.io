@@ -14,7 +14,7 @@ page-layout: full
 ## ATLS 5410 IDC1: Independent Design Challenge 1  
 ### Solving a Personal Pet Peeve  
 
-#### **Idea 1: "Approach Indicator Light"**  
+#### **Idea 1: Approach Indicator Light**  
 **Pet Peeve:** Interruptions when focused. I work from home a few days a week and my desk is in the common area of the apartment but faces the wall and I get very frustrated if my boyfriend approaches while I am in a focused flow state. Sometimes it is also hard for him to tell if I am on a call or not, but as I am usually on camera I'm not easily able to tell him that. 
 
 **Solution:**  
@@ -29,7 +29,7 @@ A **smart light** that detects when my boyfriend is near and displays a status m
 - **Button or voice control** (to manually change status)  
 - **Arduino** (microcontroller for processing)  
 
-#### **Idea 2: "Meal Decider" with Recipe Sending**  
+#### **Idea 2: Meal Decider**  
 **Pet Peeve:** Struggling to decide what to eat for lunch or dinner. 
 
 **Solution:**  
