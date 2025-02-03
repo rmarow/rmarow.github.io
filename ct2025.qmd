@@ -52,7 +52,7 @@ A physical meal suggestion device that helps pick a meal based on my input and s
 - Ensuring **Bluetooth pairing** is smooth and simple.  
 - How to encorporate a pre-set list of meal ideas and recipe links.  
 
-#### Idea 3: Euchre Scorekeeper
+#### **Idea 3: Euchre Scorekeeper**
 
 **Pet Peeve:** Keeping score during Euchre can be tricky, especially when drinking, chatting, or multitasking. People forget to update the score, and sometimes there’s debate about what it should be.  
 
