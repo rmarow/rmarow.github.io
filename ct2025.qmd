@@ -10,3 +10,78 @@ listing:
   categories: true
 page-layout: full
 ---
+
+## ATLS 5410 IDC1: Independent Design Challenge 1  
+### Solving a Personal Pet Peeve  
+
+#### **Idea 1: Approach Indicator Light**  
+**Pet Peeve:** Interruptions when focused. I work from home a few days a week and my desk is in the common area of the apartment but faces the wall and I get very frustrated if my boyfriend approaches while I am in a focused flow state. Sometimes it is also hard for him to tell if I am on a call or not, but as I am usually on camera I'm not easily able to tell him that. 
+
+**Solution:**  
+A **smart light** that detects when my boyfriend is near and displays a status message based on my availability - kind of like an "On Air" sign at a recording studio. The system could use a **proximity sensor** to detect his presence and display one of the following messages:  
+- 🟥 **"On a call"**   
+- 🟨 **"Focusing"**  
+- 🟩 **"Say Hey"**  
+
+**Possible Components:**  
+- **Ultrasonic sensor / RFID module** (for detection)  
+- **LED strip or LCD screen** (to display the message)  
+- **Button or voice control** (to manually change status)  
+- **Arduino** (microcontroller for processing)  
+
+#### **Idea 2: Meal Decider**  
+**Pet Peeve:** Struggling to decide what to eat for lunch or dinner. 
+
+**Solution:**  
+A physical meal suggestion device that helps pick a meal based on my input and sends a recipe from a list of pre-selected options to my phone via bluetooth. I want te options to be pre-selected since I have some allergies/dietary restrictions and want them to be things I would actuallty want to make. 
+
+**How it Works:**  
+1. **Press a button or turn a dial** to generate a random meal suggestion.  
+2. The **LCD screen or LED display** shows the meal idea (e.g., "Tacos!" or "Stir Fry").  
+3. **Bluetooth sends a recipe link** to my phone for the selected meal.  
+4. (Optional) A second button allows for a **re-roll** if I don’t like the first option.  
+
+**Possible Components:**  
+- **Push button or rotary dial** (to select a meal).  
+- **LCD screen or LED matrix** (to display meal suggestions).  
+- **HC-05 or HC-06 Bluetooth module** (to send recipe links to my phone).  
+- **Arduino** (to handle meal selection, display, and Bluetooth connection).  
+- **Pre-set meal list** with corresponding recipe URLs.  
+
+**Challenges & Considerations:**  
+- Ensuring **Bluetooth pairing** is smooth and simple.  
+- How to encorporate a pre-set list of meal ideas and recipe links.  
+
+#### Idea 3: Euchre Scorekeeper
+
+**Pet Peeve:** Keeping score during Euchre can be tricky, especially when drinking, chatting, or multitasking. People forget to update the score, and sometimes there’s debate about what it should be.  
+
+**Solution** 
+A simple Euchre Scorekeeper that tracks the game’s progress with minimal effort so players can focus on having fun.  
+
+**Features**  
+- **Single-button simplicity:** Each team has one button—click it the correct number of times to record points.  
+- **Handles Euchre-specific scoring rules:**  
+  - 1 click = 1 point (standard round win).  
+  - 2 clicks = 2 points (team wins all 5 tricks or Euchres opponents).  
+  - 4 clicks = 4 points (someone goes alone and wins).  
+- **Visible score display:** A bright LED or LCD screen shows the current score at all times.  
+- **Drinking-Friendly Mode:** Can provide random demands like*"Time for a cheers!"*.  
+- **Auto-reset:** When a team reaches 10 points, the device flashes the winner’s name and resets automatically.  
+
+**How It Works**
+1. Each team has one button.  
+2. The button is pressed once per point earned (1, 2, or 4 times).  
+3. The LED display updates the score in real time.  
+4. When a team reaches 10 points, the game announces the winner and resets automatically.  
+
+**Components**  
+- **2 push buttons** (one for each team).  
+- **LED display or LCD screen** to show the score.  
+- **Arduino** (to process scoring logic).  
+- **Buzzer or LED flash** when a team scores.  
+
+**Challenges & Considerations**  
+- Avoiding accidental button presses 
+- Ensuring points are counted correctly (a short delay between clicks to prevent double-counting).  
+- Should there be an undo option?  
