@@ -33,7 +33,7 @@ jobs:
       contents: "write"
     steps:
       - name: "Check out repository"
-        uses: "actions/checkout@v4"
+        uses: "actions/checkout@v3"
 
       - name: "Install Conda environment"
         uses: "mamba-org/setup-micromamba@v1"
@@ -45,7 +45,7 @@ jobs:
         run: "quarto render ."
 
       - name: "Upload artifact"
-        uses: "actions/upload-pages-artifact@v1"
+        uses: "actions/upload-pages-artifact@v4"
         with:
           path: "./_site"
 
