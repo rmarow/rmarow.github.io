@@ -37,7 +37,7 @@ A physical meal suggestion device that helps pick a meal based on my input and s
 
 **How it Works:**  
 1. **Press a button or turn a dial** to generate a random meal suggestion.  
-2. The **LCD screen or LED display** shows the meal idea (e.g., "Tacos!" or "Stir Fry").  
+2. The **LCD screen or LED display** shows the meal idea (Tacos, Curry, etc)
 3. **Bluetooth sends a recipe link** to my phone for the selected meal.  
 4. (Optional) A second button allows for a **re-roll** if I don’t like the first option.  
 
