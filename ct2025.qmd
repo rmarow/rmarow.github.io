@@ -11,7 +11,35 @@ listing:
 page-layout: full
 ---
 
-## ATLS 5410 Motor Buffet:
+## ATLS 5410 Motor Buffet
+
+Group members: Caitlin Littlejohn, Robyn Marowitz, Eli Skelly, Clayton Hester
+
+
+Our idea was to create a maze that is either controlled by either 4 directional buttons or a joystick and use 2 motors in order to have movement in all 4 directions. 
+
+Considerations:  
+
+- **which motor to use** -- servo or stepper? We ultimately went with servo due to finding more information online relevant to this idea.  
+- **laser cut wood or 3D print the maze** -- aesthetically we liked the look of the maze being carved out of wood but with marble (or bead) sizes and the strength of the motors it seemed more logical to go with 3D printing.  
+- **power** - to be continued....  
+
+
+Phase 1: Getting the motors to work together and be controlled by a joystick.  
+
+![](attachments/mb-joystick.MOV){width=300}
+
+Testing the system with cardboard.  
+
+![](attachments/mb-cardboard.MOV){width=300}
+
+Printing a bracket to attach the motor to the maze and testing it.  
+
+![](attachments/mb-motor-attachment.jpg){width=300}
+
+Putting it all together.  
+
+![](attachments/mb-final-photo.jpg){width=300}
 
 
 
