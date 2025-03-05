@@ -1,14 +1,5 @@
 ---
 tite: "Creative Technologies 2025"
-listing:
-  contents: projects
-  sort: "date desc"
-  type: default
-  image-align: right
-  max-description-length: 175
-  date-format: medium
-  categories: true
-page-layout: full
 ---
 
 ## ATLS 5410 Motor Buffet
@@ -16,22 +7,31 @@ page-layout: full
 Group members: Caitlin Littlejohn, Robyn Marowitz, Eli Skelly, Clayton Hester
 
 
+### Project overview 
 Our idea was to create a maze that is either controlled by either 4 directional buttons or a joystick and use 2 motors in order to have movement in all 4 directions. 
 
-Considerations:  
+### **Key Considerations**  
 
-- **which motor to use** -- servo or stepper? We ultimately went with servo due to finding more information online relevant to this idea.  
-- **laser cut wood or 3D print the maze** -- aesthetically we liked the look of the maze being carved out of wood but with marble (or bead) sizes and the strength of the motors it seemed more logical to go with 3D printing.  
-- **power** - to be continued....  
+- **Motor Selection – Servo or Stepper?**  
+  We initially explored both options but ultimately chose **servo motors**, as we found more relevant documentation and examples supporting this approach.  
+
+- **Maze Material – Laser-Cut Wood or 3D Printing?**  
+  Aesthetically, we liked the idea of carving the maze out of wood. However, considering **marble size** and **motor strength**, we decided that **3D printing** would be the more practical choice.  
+
+- **Power Requirements – TBD**  
+  We are still experimenting with different power setups to ensure optimal motor performance.  
 
 
-Phase 1: Getting the motors to work together and be controlled by a joystick.  
+#### Phase 1: Prototyping and
+Getting the motors to work together and be controlled by a joystick.  
 
 ![](attachments/mb-joystick.MOV){width=300}
 
-Testing the system with cardboard.  
+#### Phase 2: Testing the system with cardboard.  
 
 ![](attachments/mb-cardboard.MOV){width=300}
+
+#### Phase 3: Putting the pieces together
 
 Printing a bracket to attach the motor to the maze and testing it.  
 
