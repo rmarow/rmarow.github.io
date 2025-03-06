@@ -18,8 +18,8 @@ Our idea was to create a maze that is either controlled by either 4 directional 
 - **Maze Material – Laser-Cut Wood or 3D Printing?**  
   Aesthetically, we liked the idea of carving the maze out of wood. However, considering **marble size** and **motor strength**, we decided that **3D printing** would be the more practical choice.  
 
-- **Power Requirements – TBD**  
-  We are still experimenting with different power setups to ensure optimal motor performance.  
+- **Power **
+Initially we worked with it plugged into the computer, but since there is a box to contain the wires and system we wanted to be able to hide the power in there. Ultimately a 5V power bank was what worked best for this. 
 
 
 #### Phase 1: Prototyping and
@@ -40,6 +40,7 @@ Printing a bracket to attach the motor to the maze and testing it.
 Putting it all together.  
 
 ![](attachments/mb-final-photo.jpg){width=300}
+![](attachments/mb-final-vid.MP4){width=300}
 
 
 
