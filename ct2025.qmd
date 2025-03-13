@@ -62,14 +62,105 @@ A **smart light** that detects when my boyfriend is near and displays a status m
 - **Button or voice control** (to manually change status)  
 - **Arduino** (microcontroller for processing)  
 
+### Notes from meeting:
+- consider an attack mechanism for when someone gets too close (i.e. noise or water shooter)
+
 ### Working through the project:
-# Phase 1:
+Upon meeting with Zack I decided to move forward with the **Approach Indicator Light**. This would be put in my desk area which is in a common space. 
+
+![](attachments/desk-area.jpeg){width=300}
+
+# Phase 1: Arduino education
 
 I first started by attempting to set up each of the most basic components individually.
 
-I began with the ultrasonic sensor 
+I began with the ultrasonic sensor and was able to get it to read and print in the serial monitor. Then I followed a few tutorials and got the ultrasonic sensor to work alongside LED lights and trigger them based on distance: 
+![](attachments/sensors-and-leds.jpeg){width=300}
 
+After that I wanted to figure out how to trigger different `modes` with just one button and did quite a but of testing, but discovered nothing I had done was reliable enough so I would need to use a separate button for each mode. 
 
+I was feeling confident at that point and decided to mess around with the LCD screen so that I could get a message out rather than indicate with just `red`, `green`, or `yellow` LEDS. 
+![](attachments/stay-away-lcd.jpg){width=300}
+As it can be seen in the image -- this used way to many of the pins on my arduino and did not actually look very nice or produce the words I wanted consistently. So I decided to shelf that. 
+
+At that point I realized I was doing alright with both conceptualizing the code and getting components working so I decided to use my knowledge from the motor buffet to introduce a servo motor and use it with a catapult as an attack mechanism when the mode is red and the sensor detects someone closer than 12 inches away.
+
+# Phase 2: Code and putting it all together
+
+I realized I would need to generate a catapult for the defense mechanism so I printed a mini catapult (not without one small printing failure). ![](attachments/failed-catapult.jpeg){width=300} But with all failures I perservered and got to a working catapult. ![](catapult-vid.move){width=300}.
+
+Unfortunately I am still working on the mechanism to use the servo to trigger the release of the catalpult.  
+
+Happily - the code works great and I am using, 3 LEDS, 3 buttons, a motor, and an ultrasonic sensor all in sync. I have included a small portion of the code below.  
+
+- **red mode** - this is do not disturb mode and at any distance will have a red light on. If there is detection closer than 3 feet the light will begin blinking, if detection occurs at 1 foot or less the light blinks faster and the catapult is released - attacking the disturber.
+- **yellow mode** - much like a yellow light this means please proceed with caution (i am focusing but not on a call). The yellow light will blink fast as someone gets closer.
+- **green mode** - friendly mode - light will always be green signalling its okay to approach.
+
+```
+
+  if (currentMode == 3 ){
+    digitalWrite(LED2, LOW);
+    digitalWrite(LED1, LOW);
+    if (inches <= 12  && !hasFired) // if inches <= 12 and light is red shoot something with servo
+    {
+      // blink red light fast and shoot something
+      blinkLED(LED3, 100);
+      for (pos = 0; pos <= 90; pos += 1) {
+      //for (pos = 90; pos >= 0; pos -= 1) {  // Reverse direction
+        // in steps of 1 degree
+        myservo.write(pos);              // tell servo to go to position in variable 'pos'
+        delay(15); 
+      }
+      hasFired = true;                     
+    }
+    else if (inches <= 36 )
+    {
+      // blink red slower
+      blinkLED(LED3, 100);
+    }
+    else if (inches <= 500 )
+    {
+      // red light on
+      digitalWrite(LED3, HIGH);
+    }
+  }
+  else if (currentMode == 2) {
+    digitalWrite(LED3, LOW);
+    digitalWrite(LED1, LOW);
+    if (inches <= 12 ) // if inches <= 12 and light is red shoot something with servo
+    {
+      // blink yellow light fast 
+      blinkLED(LED2, 50);
+    }
+    else if (inches <= 36 )
+    {
+      // blink yellow slower
+      blinkLED(LED2, 100);
+    }
+    else if (inches <= 500 )
+    {
+      // yellow light on
+      digitalWrite(LED2, HIGH);
+    }
+  }
+  else if (currentMode == 1) {
+    digitalWrite(LED3, LOW);
+    digitalWrite(LED2, LOW);
+    digitalWrite(LED1, HIGH);
+  }
+```
+
+## Phase 3: Aesthetic
+
+As it can be seen this quickly became pretty busy with all the used pins.
+
+![](attachments/final-1.jpeg){width=300}
+
+![](attachments/overhead.jpeg){width=300}
+
+I moved the buttons to their own breadboard so that they would be more easily usable.
+![]attachments/buttons-moved){width=300}
 
 
 ## Unused IDC1 ideas
