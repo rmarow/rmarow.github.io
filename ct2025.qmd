@@ -62,6 +62,16 @@ A **smart light** that detects when my boyfriend is near and displays a status m
 - **Button or voice control** (to manually change status)  
 - **Arduino** (microcontroller for processing)  
 
+### Working through the project:
+# Phase 1:
+
+I first started by attempting to set up each of the most basic components individually.
+
+I began with the ultrasonic sensor 
+
+
+
+
 ## Unused IDC1 ideas
 #### **Idea 2: Meal Decider**  
 **Pet Peeve:** Struggling to decide what to eat for lunch or dinner. 
