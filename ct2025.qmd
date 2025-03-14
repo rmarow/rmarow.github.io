@@ -93,9 +93,9 @@ Building the catapult was an adventure in itself. I 3D-printed a small design (n
 
   ![](attachments/catapult-vid.mov){width=300}  
 
-…but persistence paid off! I eventually had a **working mini catapult**.  
+…but persistence paid off! I eventually had a **working mini catapult** with the motor causing the release. (had to do some minor tweaks to the 3D print)
 
-** insert new video here**
+![](attachments/all-function.MOV){width=300}
 
 At this stage, everything was coming together:  
 ✅ **3 LEDs** for different modes  
@@ -131,15 +131,13 @@ I moved the buttons to their own breadboard so that they would be more easily us
 Then I ultimately moved the buttons again and soldiered some of the wires to be even cleaner.  
 ![](attachments/soldiered-buttons.jpeg){width=300}
 
-#### Final working product DEMO
+### Final working product DEMO
 
-**This was the final look**
+**This was the final look**  
 ![](attachments/final-setup-aerial.jpg){width=300}
 
-All functions demo:
-![](attachments/all-function.MOV){width=300}
+All functions demo:  
 
-Just catapult demo:
 ![](attachments/catapult.MOV){width=300}
 
 ### **Phase 4: Future Ideas & In-Class Feedback**  
@@ -154,6 +152,7 @@ During class, I received feedback suggesting:
 - **Move the sensor and lights** onto the same surface as the catapult.  
 - **Mount the whole system on a box**, creating a more contained and polished design.  
 - **Place the buttons on the front of the box** for better usability.  
+- Better wire management overall.
 
 Overall, this project turned out to be a **fun mix of practical and absurd**, blending real-world productivity solutions with a slightly *over-the-top* approach to personal space. 😆
 
