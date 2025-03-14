@@ -70,7 +70,7 @@ Upon meeting with Zack I decided to move forward with the **Approach Indicator L
 
 ![](attachments/desk-area.jpeg){width=300}
 
-# Phase 1: Arduino education
+##  Phase 1: Arduino education
 
 I first started by attempting to set up each of the most basic components individually.
 
@@ -85,7 +85,7 @@ As it can be seen in the image -- this used way to many of the pins on my arduin
 
 At that point I realized I was doing alright with both conceptualizing the code and getting components working so I decided to use my knowledge from the motor buffet to introduce a servo motor and use it with a catapult as an attack mechanism when the mode is red and the sensor detects someone closer than 12 inches away.
 
-# Phase 2: Code and putting it all together
+## Phase 2: Code and putting it all together
 
 I realized I would need to generate a catapult for the defense mechanism so I printed a mini catapult (not without one small printing failure). ![](attachments/failed-catapult.jpeg){width=300} But with all failures I perservered and got to a working catapult. ![](catapult-vid.move){width=300}.
 
