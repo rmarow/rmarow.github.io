@@ -1,3 +1,4 @@
+### Phase 3: Aesthetic
 ---
 tite: "Creative Technologies 2025"
 ---
@@ -130,7 +131,16 @@ I moved the buttons to their own breadboard so that they would be more easily us
 Then I ultimately moved the buttons again and soldiered some of the wires to be even cleaner.  
 ![](attachments/soldiered-buttons.jpeg){width=300}
 
-** add video of working catapult and system **
+#### Final working product DEMO
+
+**This was the final look**
+![](attachments/final-setup-aerial.jpg){width=300}
+
+All functions demo:
+![](attachments/all-function.MOV){width=300}
+
+Just catapult demo:
+![](attachments/catapult.MOV){width=300}
 
 ### **Phase 4: Future Ideas & In-Class Feedback**  
 
