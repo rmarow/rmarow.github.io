@@ -116,7 +116,7 @@ At this stage, everything was coming together:
 - **🟢 Green Mode (Okay to Approach)**  
   - Green light is on, signaling it’s fine to talk.  
 
-### Phase 3: Aesthetic
+### **Phase 3: Improving Aesthetics & Usability**  
 
 As it can be seen this quickly became pretty busy with all the used pins.
 
