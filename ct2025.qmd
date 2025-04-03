@@ -45,6 +45,28 @@ Putting it all together.
 
 
 
+## IDC2: Final Project:
+
+### Continuing with IDC1:
+
+New Components to Add
+
+1. 3D Printed/Laser Cut Component: Design and create a medieval castle facade/housing that encloses the Arduino and circuitry. This could include:
+* Castle walls and towers (laser cut from wood or acrylic)
+* 3D printed details like battlements, a drawbridge, or a mechanism for the auto-reload
+
+
+2. Auto-Reload Mechanism:
+* Add a servo motor and track system to automatically reset the catapult arm
+* Create an "ammunition" storage and feeding system
+
+3. Improved Interface:
+* Mount buttons on the front of the box/castle for user control
+
+### Potential new ideas
+
+
+
 ## ATLS 5410 IDC1: Independent Design Challenge 1  
 ### Solving a Personal Pet Peeve  
 
