@@ -50,21 +50,21 @@ Putting it all together.
 
 New Components to Add
 
-1. 3D Printed/Laser Cut Component: Design and create a medieval castle facade/housing that encloses the Arduino and circuitry. This could include:
+**1.** 3D Printed/Laser Cut Component: Design and create a medieval castle facade/housing that encloses the Arduino and circuitry. This could include:
 * Castle walls and towers (laser cut from wood or acrylic)
 * 3D printed details like battlements, a drawbridge, or a mechanism for the auto-reload
 
 
-2. Auto-Reload Mechanism:
+**2.** Auto-Reload Mechanism:
 * Add a servo motor and track system to automatically reset the catapult arm
 * Create an "ammunition" storage and feeding system
 
-3. Improved Interface:
+**3.** Improved Interface:
 * Mount buttons on the front of the box/castle for user control
 
 ### Potential new ideas
 
-#### Automated row counter for knitting
+#### **Automated row counter for knitting**
 
 ##### **Project Overview**
 An **Automated Row Counter** is a small device that helps knitters track their rows and stitches automatically, reducing the need for manual counting. The device could be attached to the knitting needles or worn like a ring, and it would detect movement (knitting motion) or rely on manual input (a small button press per row). The count would be displayed on an LED screen or a mobile app. Recently I was knitting a blanket that had a 17 row pattern and it felt impossible to keep track sometimes and I had to start over twice then just accepted that the pattern would not be perfect. 
@@ -73,20 +73,20 @@ An **Automated Row Counter** is a small device that helps knitters track their r
 
 ##### **Design Considerations**
 
-**1. Input Mechanism (How to Detect Row Progress)**
-- **Button-Based:** A small button that you press at the end of each row.
-- **Motion Sensor (Accelerometer/Gyro):** Detects wrist or needle movement and counts stitches or rows automatically.
+**1. Input Mechanism (How to Detect Row Progress)**  
+- **Button-Based:** A small button that you press at the end of each row.  
+- **Motion Sensor (Accelerometer/Gyro):** Detects wrist or needle movement and counts stitches or rows automatically.  
 - **Magnetic Switch (Reed Switch):** Detects when the needle passes a fixed point using a tiny magnet.
 - **Conductive Yarn Sensors:** Detects electrical contact between knitting needles at the start of each row.
 
-**2. Display/Feedback Mechanism**
-- **Small OLED Screen:** Shows row count and updates in real time.
-- **LED Indicator:** Blinks a specific color after a set number of rows (e.g., every 10 rows).
-- **Vibration Feedback:** Provides haptic feedback when you reach a milestone.
+**2. Display/Feedback Mechanism**  
+- **Small OLED Screen:** Shows row count and updates in real time.  
+- **LED Indicator:** Blinks a specific color after a set number of rows (e.g., every 10 rows).  
+- **Vibration Feedback:** Provides haptic feedback when you reach a milestone.  
 - **Mobile App or Web Interface:** Connects via Bluetooth to track progress.
 
-**3. Power & Enclosure**
-- **Battery-Powered (Rechargeable or Coin Cell):** Needs to be compact and long-lasting.
+**3. Power & Enclosure**  
+- **Battery-Powered (Rechargeable or Coin Cell):** Needs to be compact and long-lasting.  
 - **Enclosure:** 3D printed or laser-cut case to attach to knitting needles, clip onto fabric, or be worn like a ring.
 
 ---
@@ -126,7 +126,6 @@ An **Automated Row Counter** is a small device that helps knitters track their r
 
 - **Button-Based:** More reliable, easy to implement, and less prone to errors.
 - **Motion-Based:** Fully automated, but might require tuning to avoid false counts.
-- Would this 
 
 
 
