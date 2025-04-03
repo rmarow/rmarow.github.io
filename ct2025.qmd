@@ -1,4 +1,3 @@
-### Phase 3: Aesthetic
 ---
 tite: "Creative Technologies 2025"
 ---
