@@ -75,7 +75,7 @@ An **Automated Row Counter** is a small device that helps knitters track their r
 
 **1. Input Mechanism (How to Detect Row Progress)**  
 - **Button-Based:** A small button that you press at the end of each row.  
-- **Motion Sensor (Accelerometer/Gyro):** Detects wrist or needle movement and counts stitches or rows automatically.  
+- **Motion Sensor (Accelerometer/Gyro):** Detects wrist or needle movement and counts stitches automatically.  
 - **Magnetic Switch (Reed Switch):** Detects when the needle passes a fixed point using a tiny magnet.
 - **Conductive Yarn Sensors:** Detects electrical contact between knitting needles at the start of each row.
 
@@ -92,12 +92,12 @@ An **Automated Row Counter** is a small device that helps knitters track their r
 ---
 
 ##### **Additional Features & Enhancements**
-- **Pattern Assistance:** Store knitting patterns and provide step reminders.
 - **Undo Option:** If you make a mistake, a small button lets you decrease the row count.
-- **Multiple Counters:** Track multiple projects at once with different row counters.
 - **Customizable Alerts:** Set alerts for increases/decreases, color changes, or pattern repeats.
 - **Data Logging & Connectivity:** Send data to a smartphone app for tracking progress over time.
-
+**stretch**
+- **Pattern Assistance:** Store knitting patterns and provide step reminders.
+- **Multiple Counters:** Track multiple projects at once with different row counters.
 ---
 
 ##### **Technical Breakdown**
