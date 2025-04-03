@@ -65,6 +65,70 @@ New Components to Add
 
 ### Potential new ideas
 
+#### Automated row counter for knitting
+
+##### **Project Overview**
+An **Automated Row Counter** is a small device that helps knitters track their rows and stitches automatically, reducing the need for manual counting. The device could be attached to the knitting needles or worn like a ring, and it would detect movement (knitting motion) or rely on manual input (a small button press per row). The count would be displayed on an LED screen or a mobile app. Recently I was knitting a blanket that had a 17 row pattern and it felt impossible to keep track sometimes and I had to start over twice then just accepted that the pattern would not be perfect. 
+
+---
+
+##### **Design Considerations**
+
+**1. Input Mechanism (How to Detect Row Progress)**
+- **Button-Based:** A small button that you press at the end of each row.
+- **Motion Sensor (Accelerometer/Gyro):** Detects wrist or needle movement and counts stitches or rows automatically.
+- **Magnetic Switch (Reed Switch):** Detects when the needle passes a fixed point using a tiny magnet.
+- **Conductive Yarn Sensors:** Detects electrical contact between knitting needles at the start of each row.
+
+**2. Display/Feedback Mechanism**
+- **Small OLED Screen:** Shows row count and updates in real time.
+- **LED Indicator:** Blinks a specific color after a set number of rows (e.g., every 10 rows).
+- **Vibration Feedback:** Provides haptic feedback when you reach a milestone.
+- **Mobile App or Web Interface:** Connects via Bluetooth to track progress.
+
+**3. Power & Enclosure**
+- **Battery-Powered (Rechargeable or Coin Cell):** Needs to be compact and long-lasting.
+- **Enclosure:** 3D printed or laser-cut case to attach to knitting needles, clip onto fabric, or be worn like a ring.
+
+---
+
+##### **Additional Features & Enhancements**
+- **Pattern Assistance:** Store knitting patterns and provide step reminders.
+- **Undo Option:** If you make a mistake, a small button lets you decrease the row count.
+- **Multiple Counters:** Track multiple projects at once with different row counters.
+- **Customizable Alerts:** Set alerts for increases/decreases, color changes, or pattern repeats.
+- **Data Logging & Connectivity:** Send data to a smartphone app for tracking progress over time.
+
+---
+
+##### **Technical Breakdown**
+- **Microcontroller:** Arduino (Nano, ESP32, or similar) to handle inputs and processing.
+- **Sensor Options:**
+  - Button for manual row counting.
+  - Accelerometer or gyroscope for motion-based detection.
+  - Magnetic reed switch for passive tracking.
+- **Display:** OLED screen or LED indicators.
+- **Power Source:** Rechargeable battery with efficient power management.
+- **Communication (Optional):** Bluetooth for mobile app connectivity.
+- **Enclosure:** Custom 3D-printed or laser-cut case for ease of use.
+
+---
+
+#### **Next Steps**
+1. **Prototype Input Detection:** Test a motion sensor vs. button input.
+   - Consider if this works in the round or just on standard needles. 
+2. **Determine Display Needs:** Simple LED feedback vs. OLED display.
+3. **Build a Basic Prototype:** Get an Arduino counting rows based on input.
+4. **Design the Enclosure:** Think about how to attach the device in a way that’s comfortable for knitters.
+
+---
+
+#### **Decision: Button-Based vs. Motion-Based?**
+
+- **Button-Based:** More reliable, easy to implement, and less prone to errors.
+- **Motion-Based:** Fully automated, but might require tuning to avoid false counts.
+- Would this 
+
 
 
 ## ATLS 5410 IDC1: Independent Design Challenge 1  
