@@ -42,144 +42,134 @@ Putting it all together.
 ![](attachments/mb-final-photo.jpg){width=300}
 ![](attachments/mb-final-vid.MP4){width=300}
 
+## IDC2: Final Project
 
+### Continuing from IDC1
 
-## IDC2: Final Project:
+**New Components to Add:**
+1. **Laser Cut/3D Printed Castle Enclosure**  
+   - Medieval-themed housing for the Arduino and circuitry.
+   - Castle walls, towers, and 3D-printed battlements or ammo storage.
 
-### Continuing with IDC1:
+2. **Auto-Reset Mechanism**  
+   - Add a second motor to reposition the catapult spoon after firing.
 
-New Components to Add
+3. **Improved Interface**  
+   - Mount three user buttons on the front of the box for easier access.
+   - Upgrade lighting with a Neopixel strip for better visual feedback.
 
-**1.** 3D Printed/Laser Cut Component: Design and create a medieval castle facade/housingi or other fun structure that encloses the Arduino and circuitry. This could include:  
-* Castle walls and towers (laser cut from wood or acrylic)  
-* 3D printed details like battlements, a drawbridge, or a mechanism for the auto-reload
-
-
-**2.** Auto-Reload Mechanism:  
-* Add a servo motor and track system to automatically reset the catapult arm  
-* Create an "ammunition" storage and feeding system
-
-**3.** Improved Interface:  
-* Mount buttons on the front of the box/castle for user control
-
-
-Priority order after meeting with Zack:
-* Better Lighting  
-* aestetics
-* auto-reset catapult
-* reload automatically
-
+---
 
 ## ATLS 5410 IDC1: Independent Design Challenge 1  
-### Solving a Personal Pet Peeve  
+### Solving a Personal Pet Peeve
 
-#### **Idea 1: Approach Indicator Light**  
-**Pet Peeve:** Interruptions when focused. I work from home a few days a week and my desk is in the common area of the apartment but faces the wall and I get very frustrated if my boyfriend approaches while I am in a focused flow state. Sometimes it is also hard for him to tell if I am on a call or not, but as I am usually on camera I'm not easily able to tell him that. 
+**Pet Peeve:**  
+Working from home, my desk faces a wall in a shared space. Interruptions during deep work or calls became frustrating—especially since it wasn’t obvious when I was unavailable.
 
 **Solution:**  
-A **smart light** that detects when my boyfriend is near and displays a status message based on my availability - kind of like an "On Air" sign at a recording studio. The system could use a **proximity sensor** to detect his presence and display one of the following messages:  
-- 🟥 **"On a call"**   
-- 🟨 **"Focusing"**  
-- 🟩 **"Say Hey"**  
+A **smart approach indicator light** that displays my availability and deters interruptions with lights—and, if necessary, a catapult!
 
-**Possible Components:**  
-- **Ultrasonic sensor / RFID module** (for detection)  
-- **LED strip or LCD screen** (to display the message)  
-- **Button or voice control** (to manually change status)  
-- **Arduino** (microcontroller for processing)  
+**Key Components:**
+- Ultrasonic sensor (for detecting approach)
+- LED indicators (red, yellow, green)
+- Buttons (to switch availability mode)
+- Servo motor (to trigger catapult attack)
 
-### Notes from meeting:
-- consider an attack mechanism for when someone gets too close (i.e. noise or water shooter)
+---
 
-### Working through the project:
-Upon meeting with Zack I decided to move forward with the **Approach Indicator Light**. This would be put in my desk area which is in a common space. 
+## Phase 1: Getting the Basics Working
 
-![](attachments/desk-area.jpeg){width=300}
+I started by setting up the ultrasonic sensor to measure distance and display readings via the Serial Monitor.  
+![](attachments/sensor-and-leds.jpeg){width=300}
 
-### **Phase 1: Getting the Basics Working**  
+Button testing revealed that individual buttons for each mode were more reliable than a single toggle button. I briefly experimented with an LCD screen, but it used too many pins and was visually cluttered.  
+![](attachments/stay-away-lcd.jpeg){width=300}
 
-To start, I focused on understanding each key component individually.  
+Building confidence with sensors and logic, I decided to escalate the project by adding a **servo-controlled mini catapult**.
 
-- **Ultrasonic Sensor:** First, I set up the sensor to measure distance and print values to the serial monitor. Then, I integrated it with LEDs to trigger different colors based on detected distance.  
-  ![](attachments/sensor-and-leds.jpeg){width=300}  
+---
 
-- **Button Logic:** I initially wanted a single button to cycle through modes, but after testing, I found this unreliable. Instead, I opted for separate buttons for each mode to ensure consistent switching.  
+## Phase 2: Adding the Catapult & Finalizing Code
 
-- **Exploring an LCD Screen:** My next step was experimenting with an LCD to display messages instead of using only LED indicators. However, the setup required too many pins and didn't display text reliably, so I shelved that idea.  
-  ![](attachments/stay-away-lcd.jpeg){width=300}  
+I 3D printed a small catapult (after a few failed prints)…  
+![](attachments/failed-catapult.jpeg){width=300}  
+…but persistence paid off!  
+![](attachments/catapult-vid.mov){width=300}
 
+By this stage:  
+✅ Three button-controlled modes  
+✅ Neatly wired ultrasonic sensor  
+✅ Servo motor firing mechanism for the catapult
 
-At this point, I felt confident in both the concept and my ability to get components working. Inspired by **Motor Buffet**, I decided to take things further: **introducing a servo-powered catapult as a defense mechanism.** If someone ignored the "Do Not Disturb" light and got too close — they'd get hit with a (lightweight) projectile.
+**Mode Behavior:**
+- 🔴 **Red Mode** (Do Not Disturb): Solid red light; if someone approaches, the LED blinks and catapult fires.
+- 🟡 **Yellow Mode** (Caution): Solid yellow light; blinks faster as someone approaches.
+- 🟢 **Green Mode** (Friendly): Solid green light, welcoming approach.
 
-### **Phase 2: Adding the Catapult & Finalizing the Code**  
+---
 
-Building the catapult was an adventure in itself. I 3D-printed a small design (not without a minor print failure first)...  
-  ![](attachments/failed-catapult.jpeg){width=300}  
+## Phase 3: Improving Aesthetics & Usability
 
-  ![](attachments/catapult-vid.mov){width=300}  
-
-…but persistence paid off! I eventually had a **working mini catapult** with the motor causing the release. (had to do some minor tweaks to the 3D print)
-
-![](attachments/all-function.MOV){width=300}
-
-At this stage, everything was coming together:  
-✅ **3 LEDs** for different modes  
-✅ **3 buttons** for manual mode switching  
-✅ **An ultrasonic sensor** for detection  
-✅ **A servo motor-powered catapult** for unwanted intruders  
-
-**Behavior for each mode:**  
-
-- **🔴 Red Mode (Do Not Disturb)**  
-  - Red light is on at all times.  
-  - If someone gets within **3 feet**, the red LED blinks as a warning.  
-  - If they get within **12 inches**, the catapult **fires** and the light blinks faster. 
-
-- **🟡 Yellow Mode (Proceed with Caution)**  
-  - Yellow light is on.  
-  - The closer someone gets, the yellow light begins blinking then blinks faster.  
-
-- **🟢 Green Mode (Okay to Approach)**  
-  - Green light is on, signaling it’s fine to talk.  
-
-### **Phase 3: Improving Aesthetics & Usability**  
-
-As it can be seen this quickly became pretty busy with all the used pins.
-
+Wiring quickly became chaotic with all components on one breadboard.  
 ![](attachments/final-1.jpeg){width=300}
 
-![](attachments/overhead.jpeg){width=300}
+I moved the buttons to a separate breadboard:  
+![](attachments/buttons-moved.jpeg){width=300}
 
-I moved the buttons to their own breadboard so that they would be more easily usable.
-![]attachments/buttons-moved.jpeg){width=300}
-
-Then I ultimately moved the buttons again and soldiered some of the wires to be even cleaner.  
+Later, I soldered key connections to create a cleaner, more reliable interface:  
 ![](attachments/soldiered-buttons.jpeg){width=300}
 
-### Final working product DEMO
+---
 
-**This was the final look**  
+## Phase 4: Figuring Out How to Improve
+
+After meeting with Zack, I prioritized:
+- **Better Lighting** (Neopixels)
+- **Stronger Aesthetics** (castle enclosure)
+- **Auto-Reset for Catapult**
+
+I tested using a Neopixel strip to replace the individual LEDs, improving visibility and flexibility for status changes.
+
+---
+
+## Phase 5: Adding New Components
+
+This phase brought everything together:
+- **Laser Cut Castle Enclosure:**  
+  Designing, prototyping, and finally building a medieval-themed box to house the electronics.
+- **Neopixel Lighting Integration:**  
+  Full-color status feedback replacing simple LEDs.
+- **Ammo Bowl:**  
+  3D printed a tray to keep extra projectiles neatly stored.
+
+Laser cutting the enclosure took a few attempts to align everything correctly, but the final version enhanced both appearance and durability.
+
+---
+
+## Final Demo
+
+**Final Setup:**  
 ![](attachments/final-setup-aerial.jpg){width=300}
 
-All functions demo:  
-
+**All Functions Demo:**  
 ![](attachments/catapult.MOV){width=300}
 
-### **Phase 4: Future Ideas & In-Class Feedback**  
+---
 
-#### **In-Class Feedback:**  
-During class, I received feedback suggesting:  
-- **Make it look like a medieval castle** to match the catapult theme.  
-- **Improve the catapult mechanism** to include auto-reloading.  
+## Future Work
 
-#### **Future Improvements:**  
-- **Solder more components** to make the setup more permanent and reliable.  
-- **Move the sensor and lights** onto the same surface as the catapult.  
-- **Mount the whole system on a box**, creating a more contained and polished design.  
-- **Place the buttons on the front of the box** for better usability.  
-- Better wire management overall.
+One feature I explored but could not fully complete was **automatically pulling the catapult arm back into position**. I experimented with a **28BYJ-48 stepper motor** attached to a string, but wasn’t able to generate enough torque for consistent resets.
 
-Overall, this project turned out to be a **fun mix of practical and absurd**, blending real-world productivity solutions with a slightly *over-the-top* approach to personal space. 😆
+For future iterations, I would:
+- Upgrade to a more powerful stepper motor (e.g., NEMA 17)
+- Redesign the reset linkage to require less force
+
+---
+
+# Summary
+
+This project turned into a fun blend of **real-world productivity signaling** and a **slightly absurd medieval defense system**—exactly the creative combination I was aiming for.
+
 
 ## Unused IDC ideas
 
