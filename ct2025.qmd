@@ -166,7 +166,9 @@ This phase brought everything together:
 One feature I explored but could not fully complete was **automatically pulling the catapult arm back into position**. I experimented with a **28BYJ-48 stepper motor** attached to a string, but wasn’t able to generate enough torque for consistent resets.
 
 For future iterations, I would:
+
 - Upgrade to a more powerful stepper motor (e.g., NEMA 17)
+
 - Redesign the reset linkage to require less force
 
 ---
