@@ -46,17 +46,15 @@ Putting it all together.
 
 ### Continuing from IDC1
 
-**New Components to Add:**
-1. **Laser Cut/3D Printed Castle Enclosure**  
-   - Medieval-themed housing for the Arduino and circuitry.
-   - Castle walls, towers, and 3D-printed battlements or ammo storage.
+**New Components in Iteration 2:**
+1. **Laser-Cut Enclosure**  
+   I designed and laser-cut a clean, modern enclosure to house the Arduino, wiring, and catapult. While some suggested a castle theme, I intentionally chose a minimal aesthetic to better match my design preferences and improve usability.
 
-2. **Auto-Reset Mechanism**  
-   - Add a second motor to reposition the catapult spoon after firing.
+2. **Neopixel Integration**  
+   I replaced the individual LEDs with a 13-pixel Neopixel strip for sharper visual feedback and smoother mode transitions.
 
-3. **Improved Interface**  
-   - Mount three user buttons on the front of the box for easier access.
-   - Upgrade lighting with a Neopixel strip for better visual feedback.
+3. **Improved Layout & Wire Management**  
+   Components were mounted neatly on the enclosure, with soldered buttons on the front panel and the ultrasonic sensor aligned for better detection.
 
 ---
 
@@ -64,95 +62,96 @@ Putting it all together.
 ### Solving a Personal Pet Peeve
 
 **Pet Peeve:**  
-Working from home, my desk faces a wall in a shared space. Interruptions during deep work or calls became frustrating—especially since it wasn’t obvious when I was unavailable.
+Working from home, I often get interrupted during meetings or deep work. My desk faces the wall in a shared space, and it’s hard to signal whether I’m free or busy.
 
 **Solution:**  
-A **smart approach indicator light** that displays my availability and deters interruptions with lights—and, if necessary, a catapult!
+A light-based availability indicator + proximity sensor + catapult deterrent. 😈  
+The device uses an ultrasonic sensor to detect approach and changes behavior depending on my selected mode.
 
-**Key Components:**
-- Ultrasonic sensor (for detecting approach)
-- LED indicators (red, yellow, green)
-- Buttons (to switch availability mode)
-- Servo motor (to trigger catapult attack)
+**Components:**
+- Ultrasonic sensor
+- Neopixel strip (later version)
+- Servo motor (to fire the catapult)
+- Buttons for switching modes
+- Arduino
 
 ---
 
 ## Phase 1: Getting the Basics Working
 
-I started by setting up the ultrasonic sensor to measure distance and display readings via the Serial Monitor.  
-![](attachments/sensor-and-leds.jpeg){width=300}
+I began by testing individual components:
 
-Button testing revealed that individual buttons for each mode were more reliable than a single toggle button. I briefly experimented with an LCD screen, but it used too many pins and was visually cluttered.  
-![](attachments/stay-away-lcd.jpeg){width=300}
+- Ultrasonic sensor measuring distance  
+- LEDs lighting up at different proximity thresholds  
+- Button press logic for switching between modes  
+- Brief attempt with an LCD screen (abandoned due to poor legibility and pin limitations)  
+  ![](attachments/sensor-and-leds.jpeg){width=300}  
+  ![](attachments/stay-away-lcd.jpeg){width=300}
 
-Building confidence with sensors and logic, I decided to escalate the project by adding a **servo-controlled mini catapult**.
+Inspired by Motor Buffet, I leveled up the project by adding a **servo-controlled mini catapult** to act when someone approaches in “Do Not Disturb” mode.
 
 ---
 
 ## Phase 2: Adding the Catapult & Finalizing Code
 
-I 3D printed a small catapult (after a few failed prints)…  
+I 3D printed the catapult, requiring a few iterations to get the mechanism tuned.  
 ![](attachments/failed-catapult.jpeg){width=300}  
-…but persistence paid off!  
 ![](attachments/catapult-vid.mov){width=300}
 
-By this stage:  
-✅ Three button-controlled modes  
-✅ Neatly wired ultrasonic sensor  
-✅ Servo motor firing mechanism for the catapult
+**System Behavior:**
+- 🔴 **Red Mode:** Red light; fires catapult if someone gets within 12 inches  
+- 🟡 **Yellow Mode:** Yellow light; blinking increases as someone approaches  
+- 🟢 **Green Mode:** Green light; always on, no action taken
 
-**Mode Behavior:**
-- 🔴 **Red Mode** (Do Not Disturb): Solid red light; if someone approaches, the LED blinks and catapult fires.
-- 🟡 **Yellow Mode** (Caution): Solid yellow light; blinks faster as someone approaches.
-- 🟢 **Green Mode** (Friendly): Solid green light, welcoming approach.
+The servo logic was synced with proximity thresholds, and LEDs reflected current mode.
 
 ---
 
 ## Phase 3: Improving Aesthetics & Usability
 
-Wiring quickly became chaotic with all components on one breadboard.  
-![](attachments/final-1.jpeg){width=300}
-
-I moved the buttons to a separate breadboard:  
+The wiring became messy with so many components, so I split off the buttons onto a second breadboard…  
 ![](attachments/buttons-moved.jpeg){width=300}
 
-Later, I soldered key connections to create a cleaner, more reliable interface:  
-![](attachments/soldiered-buttons.jpeg){width=300}
+Then I **soldered** the key components and mounted the buttons more securely for usability.  
+![](attachments/soldiered-buttons.jpeg){width=300}  
+![](attachments/final-1.jpeg){width=300}  
+![](attachments/overhead.jpeg){width=300}
 
 ---
 
-## Phase 4: Figuring Out How to Improve
+## Phase 4: Redesign Goals & Feedback
 
-After meeting with Zack, I prioritized:
-- **Better Lighting** (Neopixels)
-- **Stronger Aesthetics** (castle enclosure)
-- **Auto-Reset for Catapult**
+After a meeting with Zack, I refocused on:
+- Better lighting with Neopixels
+- A more polished enclosure
+- Exploring (but not fully implementing) a stepper-based auto-reset
 
-I tested using a Neopixel strip to replace the individual LEDs, improving visibility and flexibility for status changes.
+I replaced the 3 LEDs with a Neopixel strip to control color and blinking intensity dynamically, linked to proximity.
 
 ---
 
-## Phase 5: Adding New Components
+## Phase 5: Final Assembly & Polishing
 
 This phase brought everything together:
-- **Laser Cut Castle Enclosure:**  
-  Designing, prototyping, and finally building a medieval-themed box to house the electronics.
-- **Neopixel Lighting Integration:**  
-  Full-color status feedback replacing simple LEDs.
-- **Ammo Bowl:**  
-  3D printed a tray to keep extra projectiles neatly stored.
 
-Laser cutting the enclosure took a few attempts to align everything correctly, but the final version enhanced both appearance and durability.
+- 🧰 **Laser-cut acrylic enclosure**  
+   A clean, structured box designed to contain all components with mounted buttons and an aligned sensor.
+   - ![](attachments/top.jpeg){width=300}
+   - ![](attachments/corner.jpeg){width=300}
+   - ![](attachments/back.jpeg){width=300}
+   - ![](attachments/RYG-side.jpeg){width=300}
 
----
+- 💡 **Neopixel visual feedback**  
+   Each mode clearly signals status:
+   - 🔴 Red Mode → ![](attachments/red-mode.jpeg){width=300}
+   - 🟡 Yellow Mode → ![](attachments/yellow-mode.jpeg){width=300}
+   - 🟢 Green Mode → ![](attachments/green-mode.jpeg){width=300}
 
-## Final Demo
+- 🎯 **Final function demo (all modes)**  
+   ![](attachments/final-all-modes.mov){width=300}
 
-**Final Setup:**  
-![](attachments/final-setup-aerial.jpg){width=300}
-
-**All Functions Demo:**  
-![](attachments/catapult.MOV){width=300}
+- 🧠 **Ammo tray + soldered layout**  
+   A small 3D-printed dish holds extra projectiles. All components are soldered and anchored in place for durability.
 
 ---
 
@@ -168,7 +167,8 @@ For future iterations, I would:
 
 # Summary
 
-This project turned into a fun blend of **real-world productivity signaling** and a **slightly absurd medieval defense system**—exactly the creative combination I was aiming for.
+This project turned into a fun blend of **real-world productivity signaling** and a **slightly absurd medieval defense system**—exactly the creative combination I was aiming for. 
+This project began as a serious solution to an everyday annoyance—and ended up as a playful, well-engineered physical computing system. The final product reliably signals my availability and adds a bit of (harmless) chaos when boundaries are crossed. 🏹
 
 
 ## Unused IDC ideas
