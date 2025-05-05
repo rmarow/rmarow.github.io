@@ -157,7 +157,7 @@ This phase brought everything together:
    ![](attachments/final-all-modes.mov){width=300}
 
 - 🧠 **Ammo tray + soldered layout**  
-   A small 3D-printed dish holds extra projectiles. All components are soldered and anchored in place for durability.
+   A small dish holds extra projectiles. All components are soldered and/or anchored in place for durability. Discovering E6000 was a life saver in this project.
 
 ---
 
