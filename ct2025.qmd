@@ -176,7 +176,7 @@ For future iterations, I would:
 # Summary
 
 This project turned into a fun blend of **real-world productivity signaling** and a **slightly absurd medieval defense system**—exactly the creative combination I was aiming for. 
-This project began as a serious solution to an everyday annoyance—and ended up as a playful, well-engineered physical computing system. The final product reliably signals my availability and adds a bit of (harmless) chaos when boundaries are crossed. 🏹
+This project began as a serious solution to an everyday annoyance—and ended up as a playful, well-engineered physical computing system. The final product reliably signals my availability and adds a bit of (harmless) chaos when boundaries are crossed.
 
 
 ## Unused IDC ideas
