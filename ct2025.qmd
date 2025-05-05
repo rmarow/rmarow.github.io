@@ -47,6 +47,7 @@ Putting it all together.
 ### Continuing from IDC1
 
 **New Components in Iteration 2:**
+
 1. **Laser-Cut Enclosure**  
    I designed and laser-cut a clean, modern enclosure to house the Arduino, wiring, and catapult. While some suggested a castle theme, I intentionally chose a minimal aesthetic to better match my design preferences and improve usability.
 
@@ -65,7 +66,8 @@ Putting it all together.
 Working from home, I often get interrupted during meetings or deep work. My desk faces the wall in a shared space, and it’s hard to signal whether I’m free or busy.
 
 **Solution:**  
-A light-based availability indicator + proximity sensor + catapult deterrent. 😈  
+A light-based availability indicator + proximity sensor + catapult deterrent.
+
 The device uses an ultrasonic sensor to detect approach and changes behavior depending on my selected mode.
 
 **Components:**
@@ -99,6 +101,7 @@ I 3D printed the catapult, requiring a few iterations to get the mechanism tuned
 ![](attachments/catapult-vid.mov){width=300}
 
 **System Behavior:**
+
 - 🔴 **Red Mode:** Red light; fires catapult if someone gets within 12 inches  
 - 🟡 **Yellow Mode:** Yellow light; blinking increases as someone approaches  
 - 🟢 **Green Mode:** Green light; always on, no action taken
@@ -122,8 +125,11 @@ Then I **soldered** the key components and mounted the buttons more securely for
 ## Phase 4: Redesign Goals & Feedback
 
 After a meeting with Zack, I refocused on:
+
 - Better lighting with Neopixels
+
 - A more polished enclosure
+
 - Exploring (but not fully implementing) a stepper-based auto-reset
 
 I replaced the 3 LEDs with a Neopixel strip to control color and blinking intensity dynamically, linked to proximity.
